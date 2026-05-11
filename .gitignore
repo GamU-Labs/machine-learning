@@ -1,0 +1,33 @@
+# =========================
+# Data & Model Weights
+# =========================
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.h5
+*.pkl
+*.model
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Python Cache & Environments
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
