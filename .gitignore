@@ -8,7 +8,6 @@ data/processed/
 *.zip
 *.tar.gz
 *.h5
-*.pkl
 *.model
 
 # =========================
