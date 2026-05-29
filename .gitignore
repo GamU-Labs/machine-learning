@@ -2,13 +2,6 @@
 # Data & Model Weights
 # =========================
 data/raw/
-data/processed/
-*.csv
-*.tsv
-*.zip
-*.tar.gz
-*.h5
-*.model
 
 # =========================
 # Jupyter Notebooks
