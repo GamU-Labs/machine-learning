@@ -35,7 +35,7 @@ def get_rekomendasi(judul: str):
     # Ambil Top 5
     similar_indices = sim_scores.argsort()[::-1][1:6]
     
-    rekomendasi = df.iloc[similar_indices][['title', 'rating']].to_dict('records')
+    rekomendasi = df.iloc[similar_indices][['title', 'rating', 'desc_sentence', 'tags_clean']].to_dict('records')
     
     return {
         "input_game": judul,
