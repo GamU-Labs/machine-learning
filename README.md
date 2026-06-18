@@ -40,20 +40,19 @@ Pastikan sistem Anda telah terinstal Python 3.x beserta beberapa pustaka penduku
 * `jupyter`
 
 ## Instalasi dan Penggunaan
-
 1. Lakukan *clone* pada repositori ini ke dalam mesin lokal Anda:
-```bash
+    ```bash
     git clone [https://github.com/USERNAME_ORGANIZATION/gamu-ml.git](https://github.com/USERNAME_ORGANIZATION/gamu-ml.git)
     cd gamu-ml
     ```
 
 2. Instal dependensi yang dibutuhkan melalui *pip*:
-```bash
+    ```bash
     pip install pandas scikit-learn jupyter
     ```
 
 3. Buka *notebook* eksperimen utama:
-```bash
+    ```bash
     jupyter notebook notebooks/02_recommendation_model.ipynb
     ```
 
