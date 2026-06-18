@@ -61,8 +61,7 @@ Pastikan sistem Anda telah terinstal Python 3.x beserta beberapa pustaka penduku
 5. Berkas model yang berhasil dibuat (`tfidf_vectorizer.pkl`, `tfidf_matrix.pkl`, dan `clean_games_df.pkl`) akan tersimpan secara otomatis di dalam direktori `models/`.
 
 ## Struktur Direktori
-
-    gamu-ml/
+    machine-learning/
     ├── data/
     │   └── processed/
     │       └── clean_data_games.csv
@@ -71,6 +70,7 @@ Pastikan sistem Anda telah terinstal Python 3.x beserta beberapa pustaka penduku
     │   ├── tfidf_matrix.pkl
     │   └── clean_games_df.pkl
     ├── notebooks/
+    │   └── 01_EDA.ipynb
     │   └── 02_recommendation_model.ipynb
     └── README.md
 
